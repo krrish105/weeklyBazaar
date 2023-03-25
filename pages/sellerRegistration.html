@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../style.css" />
+		<title>Sellers | Saturday Market</title>
+	</head>
+	<body>
+		<nav>
+			<div class="container-max">
+				<a href="/">Saturday Market</a>
+				<ul>
+					<li class="active"><a href="./sellers.html">Sellers</a></li>
+					<li><a href="./contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<main class="main container-max">
+			<div class="d-flex w-100 justify-between">
+				<h1>Seller Registration</h1>
+			</div>
+
+			<!-- New Vendor Form -->
+			<div class="vendorForm">
+				<form action="" method="post">
+					<div>
+						<label for="name">Name:</label>
+						<input type="text" name="name" id="name" required />
+					</div>
+					<div>
+						<label for="sex">Sex:</label>
+						<input type="text" name="sex" id="sex" required />
+					</div>
+					<fieldset>
+						<label for="">Contact Details</label>
+						<div>
+							<label for="tel">Phone:</label>
+							<input type="tel" name="tel" id="tel" required />
+						</div>
+						<div>
+							<label for="address">Address:</label>
+							<input type="text" name="address" id="address" required />
+						</div>
+					</fieldset>
+					<fieldset>
+						<label for="">Product To Sale</label>
+						<div>
+							<label for="categories">Categories:</label>
+							<input type="text" name="categories" id="categories" required />
+						</div>
+						<div>
+							<label for="productFeature">Features Of Product:</label>
+							<textarea
+								name="productFeature"
+								id="productFeature"
+								required
+							></textarea>
+						</div>
+					</fieldset>
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+		</main>
+
+		<script src="../scripts/sellers.js"></script>
+	</body>
+</html>
